@@ -1,0 +1,170 @@
+/*================================================================================
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Version: 2.0
+    Author: PIXINVENT
+    Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+
+/* ---------------------------------------------------
+    LOGIN STYLE
+----------------------------------------------------- */
+
+h4 {
+    font-size: 1.32rem;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.loginPageForm {
+    height: 100%;
+    /*padding-top: 200px;*/
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.nav .modern-nav-toggle {
+    padding: 8px 0; 
+}
+
+.main-menu .navbar-header .navbar-brand {
+    margin-top: 2px;
+}
+
+
+.sidenavUser img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.sidenavUser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1.5px solid #47748b;
+}
+
+.sidenavUser .usernamePhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar.active .sidenavUser .username,
+#sidebar.active .sidenavUser .userMenu {
+    display: none;
+}
+
+.sidenavUser .username {
+    font-weight: 300;
+}
+
+.sidenavUser .userMenu {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.sidenavUserBtn {
+    font-size: 1.125rem;
+    background: #7386D5;
+    border-width: 0;
+}
+
+/*#kandaInfoBtn,
+#jumuiyaInfoBtn,
+#userInfoBtn,
+#privilegeInfoBtn,
+#occupationInfoBtn {
+    margin-left: 60px; 
+}*/
+.icon-circle:before {
+    margin-left: 20px;
+}
+
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#loggedInUserSettingContentPage,
+#massContentPage,
+#contributionTypesContentPage,
+#kandaContentPage,
+#jumuiyaContentPage,
+#userContentPage,
+#privilegeContentPage,
+#occupationContentPage,
+#checkContributionContentPage,
+#pendingContributionContentPage,
+#viewReportContentPage {
+    display: none;
+}
+
+#contributionDescriptionTextArea {
+    margin-top: 1.5rem;
+    margin-left:1rem;
+    width: 25.5rem
+}
+
+#calculateContributionSideBar {
+    width: 28.57rem;
+    max-width: 90vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: auto;
+    top: 0;
+    z-index: 1033;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+    transform: translateX(-100%);
+    transition: all 0.25s ease;
+    overflow: hidden;
+}
+
+#calculateContributionSideBar.show {
+    transform: translateX(0%);
+}
+
+
+#myDataItems,
+#addNewKandaDataItems,
+#addNewContributionDataItems,
+#checkContributionDataItems,
+#addNewJumuiyaDataItems,
+#editJumuiyaDataItems,
+#addNewUserDataItems,
+#editUserDataItems {
+    height: calc(100% - 13rem); 
+}
+
+.row {
+    max-width: 80%;
+    margin: 20px auto;
+    overflow-y:auto;
+  }
+

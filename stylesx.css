@@ -1,0 +1,35 @@
+.btn[class*="btn-outline-"] {
+    padding-top: calc(0.9rem - 1px);
+    padding-bottom: calc(0.9rem - 1px);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+.btn-outline-primary {
+    border: 1px solid #7367f0;
+    background-color: transparent;
+    color: #7367f0;
+}
+.btn {display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 0.4285rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.waves-effect{
+   position: relative; 
+   overflow: hidden;
+}
+#pettyCashInput{
+
+    padding-left: 20px;
+    margin-left: 20px;
+}
